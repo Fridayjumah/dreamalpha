@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>MIN PAGE</h1>
+    <a href="{% url 'mainapp:home' %}">HOME</a>
+    <p>this website requres you to login to have full web functions,<br>
+        its also fine to continue using without login</p>
+    <button><a href="{% url 'mainapp:login' %}">login</a></button>
+
+</body>
+</html>
